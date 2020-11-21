@@ -1,0 +1,44 @@
+.currency-converter-wrapper {
+  display: flex;
+  width: 50vw;
+  height: 300px;
+  background-color: white;
+  padding: 15px;
+  flex-direction: column;
+  -webkit-box-shadow: 5px 5px 47px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 47px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 47px -20px rgba(0, 0, 0, 0.75);
+  h1 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .footer {
+    font-size: 0.85rem;
+    text-align: right;
+  }
+
+  .input-wrapper {
+    display: flex;
+    flex: 3;
+    div {
+      padding: 10px;
+      width: 50%;
+      input,
+      label {
+        display: block;
+      }
+      input {
+        font-size: 1.3rem;
+        padding: 5px 8px;
+        margin-top: 5px;
+      }
+
+      select {
+        padding: 5px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
